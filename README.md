@@ -1,98 +1,86 @@
-EcoBot - Asistente para el Cambio Climático
+EcoBot 🌍 | Asistente para el Cambio Climático
+🌱 Descripción
 
-Descripción:
-EcoBot es un bot de Discord diseñado para ofrecer información sobre el cambio climático, proporcionar datos relevantes, consejos ecológicos y fomentar la conciencia ambiental. El proyecto se desarrolla en sprints ágiles para garantizar que cada fase del desarrollo se enfoca en objetivos clave y mejorando continuamente la funcionalidad del bot.
+EcoBot es tu compañero ecológico en Discord, diseñado para compartir información vital sobre el cambio climático, ofrecer consejos prácticos para proteger el planeta y promover la conciencia ambiental. Desarrollado con pasión, EcoBot se actualiza en sprints ágiles, brindando cada vez más funcionalidades para mantenernos informados y motivados en nuestra lucha contra el cambio climático.
+🚀 Progreso del Proyecto
 Sprint 1: Inicio del Proyecto y Configuración Básica
 
-Objetivo:
-
-    Configurar el entorno de desarrollo del bot.
-    Crear la estructura básica del bot.
-    Conectar el bot con el servidor de Discord.
+🔧 Objetivo: Configurar el entorno de desarrollo y crear la base del bot.
 
 Tareas realizadas:
 
-    Creación de la aplicación y configuración inicial en el Discord Developer Portal.
-    Conexión básica con la API de Discord utilizando discord.py.
-    Generación de comandos básicos, como /start para verificar que el bot funciona correctamente.
+    Configuración en el Discord Developer Portal.
+    Integración inicial con la API de Discord usando discord.py.
+    Comando /start para verificar la conexión.
 
-Resultado: El bot se conecta correctamente al servidor y responde a los comandos básicos. Se establece la infraestructura necesaria para agregar más funcionalidades.
+Resultado: El bot se conecta exitosamente y responde a comandos básicos. ¡La infraestructura está lista!
 Sprint 2: Información sobre el Cambio Climático
 
-Objetivo:
-
-    Integrar datos sobre el cambio climático.
-    Proporcionar información básica sobre el impacto del cambio climático a los usuarios.
+🌍 Objetivo: Integrar datos sobre el cambio climático y compartirlos con los usuarios.
 
 Tareas realizadas:
 
-    Implementación del comando /dato que proporciona datos interesantes sobre el cambio climático, como estadísticas, hechos o alertas.
-    Creación de un sistema de fuentes que respalda la información proporcionada por el bot.
-    Conexión a APIs de fuentes científicas sobre el calentamiento global.
+    Comando /dato que proporciona datos aleatorios sobre el cambio climático.
+    Implementación de un sistema de fuentes con respaldo científico.
+    Conexión a APIs de organizaciones medioambientales y científicas.
 
-Resultado: Los usuarios pueden obtener un dato aleatorio sobre el cambio climático con el comando /dato. También, al utilizar /fuentes, se proporcionan las referencias y estudios que sustentan los datos.
-Sprint 3: Expansión de Funcionalidades - Acciones Ecológicas
+Resultado: Los usuarios ahora pueden obtener datos clave sobre el cambio climático y las fuentes confiables que los respaldan.
+Sprint 3: Acciones Ecológicas y Sostenibilidad
 
-Objetivo:
-
-    Incluir recomendaciones de acciones concretas que los usuarios pueden tomar para combatir el cambio climático.
+🌱 Objetivo: Proponer acciones concretas para combatir el cambio climático.
 
 Tareas realizadas:
 
-    Implementación del comando /accion, que sugiere una acción ecológica diaria (por ejemplo, reducir el uso de plásticos, promover energías renovables, etc.).
-    Incorporación de consejos prácticos sobre sostenibilidad (por ejemplo, cambiar a transporte público, reducir la huella de carbono, etc.).
-    Agregar el comando /huella para que los usuarios puedan calcular su huella de carbono y recibir recomendaciones para reducirla.
+    Comando /accion, que sugiere acciones ecológicas diarias.
+    Tips sobre sostenibilidad, como reducir plásticos o usar transporte público.
+    Comando /huella para calcular la huella de carbono y recibir recomendaciones.
 
-Resultado: Ahora los usuarios pueden aprender qué acciones tomar para ayudar al planeta y evaluar su huella de carbono.
-Sprint 4: Ampliación de la Base de Datos y Noticias Actuales
+Resultado: Los usuarios tienen acceso a ideas para reducir su impacto ambiental y mejorar su huella de carbono.
+Sprint 4: Noticias sobre el Cambio Climático
 
-Objetivo:
-
-    Integrar noticias sobre el cambio climático.
-    Mejorar la base de datos de hechos e información con fuentes actualizadas.
+📰 Objetivo: Mantener a los usuarios informados con las últimas noticias.
 
 Tareas realizadas:
 
-    Integración de fuentes de noticias sobre el cambio climático para mantener a los usuarios informados sobre eventos actuales (como desastres naturales, políticas globales, etc.).
-    Comando /mas para redirigir a fuentes externas con más información, como artículos y estudios relevantes.
-    Ampliación de la base de datos con más hechos sobre el cambio climático y su impacto.
+    Integración de fuentes de noticias climáticas para mantenerse al día.
+    Comando /mas que redirige a artículos y estudios sobre el cambio climático.
+    Ampliación de la base de datos con más hechos y estadísticas actualizadas.
 
-Resultado: Los usuarios ahora reciben noticias y enlaces a recursos más profundos sobre el cambio climático a través del comando /mas, lo que les permite obtener información más detallada.
-Sprint 5: Mejora de la Interacción y Funcionalidad de la Comunidad
+Resultado: Los usuarios pueden recibir noticias y enlaces a recursos detallados sobre el cambio climático.
+Sprint 5: Interacción y Comunidad
 
-Objetivo:
-
-    Mejorar la interacción con los usuarios.
-    Agregar comandos adicionales para facilitar la participación de la comunidad.
+🤝 Objetivo: Mejorar la interacción con la comunidad.
 
 Tareas realizadas:
 
-    Implementación de un sistema de feedback donde los usuarios pueden sugerir nuevas ideas para el bot.
-    Integración de un comando /alerta que notifica a los usuarios sobre eventos climáticos importantes (por ejemplo, alertas sobre fenómenos naturales o cambios en políticas globales).
-    Mejora en la personalización de respuestas del bot para hacerlas más amigables y motivacionales.
+    Comando /alerta para notificar eventos climáticos importantes.
+    Sistema de feedback para sugerir nuevas ideas para el bot.
+    Personalización de respuestas para hacerlas más amigables y motivacionales.
 
-Resultado: Los usuarios tienen ahora una forma de contribuir a la mejora del bot y se mantienen al tanto de eventos climáticos relevantes, mientras reciben respuestas más amigables e interactivas.
+Resultado: Los usuarios ahora pueden contribuir al desarrollo del bot y mantenerse al tanto de los eventos climáticos importantes.
 Sprint 6: Optimización y Mantenimiento Continuo
 
-Objetivo:
-
-    Optimizar el rendimiento del bot.
-    Mantener el bot actualizado con nuevas fuentes y datos sobre el cambio climático.
+⚙️ Objetivo: Optimizar y mantener el bot.
 
 Tareas realizadas:
 
-    Optimización del código para mejorar el rendimiento y la respuesta del bot en servidores con mayor tráfico.
-    Actualización de la base de datos con nuevos datos de estudios recientes y fuentes científicas.
-    Mantenimiento de la API de noticias y cambio de enlaces rotos a nuevas fuentes.
+    Optimización del código para un mejor rendimiento.
+    Actualización de la base de datos con datos y estudios recientes.
+    Mantenimiento de APIs y enlaces para asegurar información precisa.
 
-Resultado: El bot se encuentra en su versión más eficiente y sigue recibiendo actualizaciones de datos, proporcionando siempre información actualizada.
-Tecnologías Utilizadas:
+Resultado: El bot es más rápido, eficiente y siempre está actualizado.
+💻 Tecnologías Utilizadas:
 
     discord.py: Biblioteca para interactuar con la API de Discord.
-    Python 3.x: Lenguaje de programación utilizado para el desarrollo del bot.
-    APIs del cambio climático: Fuentes y bases de datos para obtener información actualizada sobre el clima.
+    Python 3.x: El lenguaje que impulsa el desarrollo del bot.
+    APIs sobre el cambio climático: Fuentes científicas para mantenernos informados.
 
-Próximos Sprints:
+🚀 Próximos Sprints
+Sprint 7: Gamificación Ecológica
 
-    Sprint 7: Desarrollo de un sistema de gamificación donde los usuarios puedan obtener puntos por tomar acciones ecológicas y competir con otros.
-    Sprint 8: Integración con más plataformas y servicios externos para ampliar el alcance de la información.
+🎮 Objetivo: Implementar un sistema de puntos donde los usuarios ganen recompensas por acciones ecológicas.
+Sprint 8: Ampliación a Otras Plataformas
+
+🌐 Objetivo: Integrar más servicios externos para alcanzar una mayor audiencia y distribuir más información.
+
+Únete a EcoBot en [tu servidor de Discord] para hacer tu parte en la lucha contra el cambio climático. ¡Cada pequeño gesto cuenta! 🌍💚
