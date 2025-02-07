@@ -68,3 +68,6 @@ Si deseas mejorar EcoBot, puedes hacer un fork del repositorio, crear una nueva 
 ## 📜 Licencia
 Este proyecto se distribuye bajo la licencia MIT. Puedes usarlo y modificarlo libremente.
 
+## 🙌 Invitacion
+Invitacion del bot: https://discord.com/oauth2/authorize?client_id=1332496650911875225
+
