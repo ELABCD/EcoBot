@@ -28,7 +28,7 @@ pip install -U discord.py
 1. Crea una aplicación en el [Portal de Desarrolladores de Discord](https://discord.com/developers/applications)
 2. Genera un token y reemplázalo en el archivo `bot.py` en la línea:
    ```python
-   client.run("TU_TOKEN_AQUI")
+   client.run("TOKEN")
    ```
 3. Invita el bot a tu servidor con los permisos adecuados.
 
