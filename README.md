@@ -1,86 +1,70 @@
-EcoBot 🌍 | Asistente para el Cambio Climático
-🌱 Descripción
+# 🌍 EcoBot
 
-EcoBot es tu compañero ecológico en Discord, diseñado para compartir información vital sobre el cambio climático, ofrecer consejos prácticos para proteger el planeta y promover la conciencia ambiental. Desarrollado con pasión, EcoBot se actualiza en sprints ágiles, brindando cada vez más funcionalidades para mantenernos informados y motivados en nuestra lucha contra el cambio climático.
-🚀 Progreso del Proyecto
-Sprint 1: Inicio del Proyecto y Configuración Básica
+EcoBot es un bot de Discord diseñado para educar y concienciar sobre el cambio climático. Ofrece datos informativos, consejos ecológicos, enlaces a recursos y herramientas interactivas para calcular el impacto ambiental.
 
-🔧 Objetivo: Configurar el entorno de desarrollo y crear la base del bot.
+## 🚀 Características
 
-Tareas realizadas:
+✅ **/dato** – Muestra un dato aleatorio sobre el cambio climático.  
+✅ **/mas** – Proporciona enlaces con información confiable.  
+✅ **/tips** – Ofrece consejos prácticos para reducir la contaminación.  
+✅ **/noticias** – Muestra noticias recientes sobre el cambio climático.  
+✅ **/impacto** – Evalúa qué tan ecológico eres con preguntas simples.  
 
-    Configuración en el Discord Developer Portal.
-    Integración inicial con la API de Discord usando discord.py.
-    Comando /start para verificar la conexión.
+---
 
-Resultado: El bot se conecta exitosamente y responde a comandos básicos. ¡La infraestructura está lista!
-Sprint 2: Información sobre el Cambio Climático
+## 🛠 Instalación y configuración
 
-🌍 Objetivo: Integrar datos sobre el cambio climático y compartirlos con los usuarios.
+### 1️⃣ Requisitos previos
+Antes de ejecutar EcoBot, asegúrate de tener:
+- Python 3.8+
+- `discord.py` instalado
 
-Tareas realizadas:
+Para instalar la librería de Discord:
+```bash
+pip install -U discord.py
+```
 
-    Comando /dato que proporciona datos aleatorios sobre el cambio climático.
-    Implementación de un sistema de fuentes con respaldo científico.
-    Conexión a APIs de organizaciones medioambientales y científicas.
+### 2️⃣ Configurar el bot
+1. Crea una aplicación en el [Portal de Desarrolladores de Discord](https://discord.com/developers/applications)
+2. Genera un token y reemplázalo en el archivo `bot.py` en la línea:
+   ```python
+   client.run("TU_TOKEN_AQUI")
+   ```
+3. Invita el bot a tu servidor con los permisos adecuados.
 
-Resultado: Los usuarios ahora pueden obtener datos clave sobre el cambio climático y las fuentes confiables que los respaldan.
-Sprint 3: Acciones Ecológicas y Sostenibilidad
+---
 
-🌱 Objetivo: Proponer acciones concretas para combatir el cambio climático.
+## 🏃‍♂️ Ejecución
+Para ejecutar el bot, usa:
+```bash
+python bot.py
+```
+---
 
-Tareas realizadas:
+## 📜 Comandos disponibles
 
-    Comando /accion, que sugiere acciones ecológicas diarias.
-    Tips sobre sostenibilidad, como reducir plásticos o usar transporte público.
-    Comando /huella para calcular la huella de carbono y recibir recomendaciones.
+| Comando  | Descripción |
+|----------|------------|
+| `/dato` | Muestra un dato aleatorio sobre el cambio climático. |
+| `/mas` | Muestra enlaces a páginas informativas sobre la contaminación. |
+| `/tips` | Proporciona un consejo ecológico aleatorio. |
+| `/noticias` | Muestra una noticia reciente sobre el cambio climático. |
+| `/impacto` | Evalúa tu impacto ambiental mediante preguntas interactivas. |
 
-Resultado: Los usuarios tienen acceso a ideas para reducir su impacto ambiental y mejorar su huella de carbono.
-Sprint 4: Noticias sobre el Cambio Climático
+---
 
-📰 Objetivo: Mantener a los usuarios informados con las últimas noticias.
+## 🔗 Fuentes y referencias
+- [ONU - Cambio Climático](https://www.un.org/es/climatechange)
+- [NASA - Evidencia del Cambio Climático](https://climate.nasa.gov/evidence/)
+- [WWF - Cambio Climático](https://www.worldwildlife.org/initiatives/climate)
 
-Tareas realizadas:
+---
 
-    Integración de fuentes de noticias climáticas para mantenerse al día.
-    Comando /mas que redirige a artículos y estudios sobre el cambio climático.
-    Ampliación de la base de datos con más hechos y estadísticas actualizadas.
+## 📌 Contribuciones
+Si deseas mejorar EcoBot, puedes hacer un fork del repositorio, crear una nueva rama y enviar un pull request.
 
-Resultado: Los usuarios pueden recibir noticias y enlaces a recursos detallados sobre el cambio climático.
-Sprint 5: Interacción y Comunidad
+---
 
-🤝 Objetivo: Mejorar la interacción con la comunidad.
+## 📜 Licencia
+Este proyecto se distribuye bajo la licencia MIT. Puedes usarlo y modificarlo libremente.
 
-Tareas realizadas:
-
-    Comando /alerta para notificar eventos climáticos importantes.
-    Sistema de feedback para sugerir nuevas ideas para el bot.
-    Personalización de respuestas para hacerlas más amigables y motivacionales.
-
-Resultado: Los usuarios ahora pueden contribuir al desarrollo del bot y mantenerse al tanto de los eventos climáticos importantes.
-Sprint 6: Optimización y Mantenimiento Continuo
-
-⚙️ Objetivo: Optimizar y mantener el bot.
-
-Tareas realizadas:
-
-    Optimización del código para un mejor rendimiento.
-    Actualización de la base de datos con datos y estudios recientes.
-    Mantenimiento de APIs y enlaces para asegurar información precisa.
-
-Resultado: El bot es más rápido, eficiente y siempre está actualizado.
-💻 Tecnologías Utilizadas:
-
-    discord.py: Biblioteca para interactuar con la API de Discord.
-    Python 3.x: El lenguaje que impulsa el desarrollo del bot.
-    APIs sobre el cambio climático: Fuentes científicas para mantenernos informados.
-
-🚀 Próximos Sprints
-Sprint 7: Gamificación Ecológica
-
-🎮 Objetivo: Implementar un sistema de puntos donde los usuarios ganen recompensas por acciones ecológicas.
-Sprint 8: Ampliación a Otras Plataformas
-
-🌐 Objetivo: Integrar más servicios externos para alcanzar una mayor audiencia y distribuir más información.
-
-Únete a EcoBot en [tu servidor de Discord] para hacer tu parte en la lucha contra el cambio climático. ¡Cada pequeño gesto cuenta! 🌍💚
