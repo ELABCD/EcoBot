@@ -16,7 +16,7 @@ EcoBot es un bot de Discord diseñado para educar y concienciar sobre el cambio 
 
 ### 1️⃣ Requisitos previos
 Antes de ejecutar EcoBot, asegúrate de tener:
-- Python 3.8+
+- Python 3.12+
 - `discord.py` instalado
 
 Para instalar la librería de Discord:
