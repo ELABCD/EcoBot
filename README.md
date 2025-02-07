@@ -59,6 +59,20 @@ python bot.py
 - [WWF - Cambio Climático](https://www.worldwildlife.org/initiatives/climate)
 
 ---
+🔥 Dificultades y soluciones
+
+Durante el desarrollo de EcoBot, se presentaron algunos desafíos técnicos:
+
+Error con la importación de discord: Inicialmente, el código arrojaba un error AttributeError: module 'discord' has no attribute 'bot'. Se solucionó asegurando que discord.py estuviera actualizado y cambiando la implementación a client en lugar de bot.
+
+Compatibilidad con versiones de Python: Algunas funciones de discord.py no funcionaban correctamente con versiones antiguas de Python. Se resolvió actualizando el código para soportar Python 3.12+.
+
+Problemas con permisos: El bot no respondía a comandos debido a permisos insuficientes. Se verificaron y ajustaron los permisos en el portal de desarrolladores de Discord.
+
+Interrupciones por desconexión: Hubo problemas con la estabilidad del bot debido a desconexiones imprevistas. Se implementó un manejador de errores para reconectar automáticamente en caso de fallos.
+
+Estos desafíos ayudaron a mejorar la estabilidad y funcionalidad de EcoBot, asegurando un rendimiento más fluido y confiable.
+---
 
 ## 📌 Contribuciones
 Si deseas mejorar EcoBot, puedes hacer un fork del repositorio, crear una nueva rama y enviar un pull request.
