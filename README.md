@@ -33,6 +33,7 @@ pip install -U discord.py
 3. Invita el bot a tu servidor con los permisos adecuados.
 
 🔗 **Invita a EcoBot a tu servidor:** [Haz clic aquí](https://discord.com/oauth2/authorize?client_id=1332496650911875225)
+## O puedes usar un QR :)
 
 ![qr_EcoBot](https://github.com/user-attachments/assets/2c6b9cdd-1f46-4c40-b9f5-f236236104b4)
 
